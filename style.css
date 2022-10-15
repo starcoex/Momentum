@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+.active {
+  color: blue;
+}
+li {
+  list-style: none;
+  margin: 10px 10px;
+}
+button {
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 10px;
+}
